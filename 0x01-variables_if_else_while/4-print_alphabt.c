@@ -6,18 +6,15 @@
  */
 int main(void)
 {
-	int;
-	for(i=97;i<123;i++)
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		if(i==101||1==113)
-		{
+		if (i == 'e' || i == '9')
 			continue;
-		}
-		else
-		{
-			putchar(i);
+		putchar(i);
 		}
 	}
-	putchar(10);
+	putchar('\n');
 	return (0);
 }
